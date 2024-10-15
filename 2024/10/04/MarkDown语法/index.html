@@ -1,0 +1,838 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+  <meta charset="UTF-8">
+<meta name="viewport" content="width=device-width">
+<meta name="theme-color" content="#222"><meta name="generator" content="Hexo 7.3.0">
+
+  <link rel="apple-touch-icon" sizes="180x180" href="/images/apple-touch-icon-next.png">
+  <link rel="icon" type="image/png" sizes="32x32" href="/images/favicon-32x32-next.png">
+  <link rel="icon" type="image/png" sizes="16x16" href="/images/favicon-16x16-next.png">
+  <link rel="mask-icon" href="/images/logo.svg" color="#222">
+
+<link rel="stylesheet" href="/css/main.css">
+
+
+
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css" integrity="sha256-5eIC48iZUHmSlSUz9XtjRyK2mzQkHScZY1WdMaoz74E=" crossorigin="anonymous">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/3.1.1/animate.min.css" integrity="sha256-PR7ttpcvz8qrF57fur/yAx1qXMFJeJFiA6pSzWi0OIE=" crossorigin="anonymous">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/pace/1.2.4/themes/blue/pace-theme-minimal.css">
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/pace/1.2.4/pace.min.js" integrity="sha256-gqd7YTjg/BtfqWSwsJOvndl0Bxc8gFImLEkXQT8+qj0=" crossorigin="anonymous"></script>
+
+<script class="next-config" data-name="main" type="application/json">{"hostname":"chandie-zhang.netlify.app","root":"/","images":"/images","scheme":"Gemini","darkmode":false,"version":"8.21.0","exturl":false,"sidebar":{"position":"left","width_expanded":320,"width_dual_column":240,"display":"post","padding":18,"offset":12},"hljswrap":true,"copycode":{"enable":false,"style":null},"fold":{"enable":false,"height":500},"bookmark":{"enable":false,"color":"#222","save":"auto"},"mediumzoom":false,"lazyload":false,"pangu":false,"comments":{"style":"tabs","active":null,"storage":true,"lazyload":false,"nav":null},"stickytabs":false,"motion":{"enable":true,"async":false,"transition":{"menu_item":"fadeInDown","post_block":"fadeIn","post_header":"fadeInDown","post_body":"fadeInDown","coll_header":"fadeInLeft","sidebar":"fadeInUp"}},"i18n":{"placeholder":"搜索...","empty":"没有找到任何搜索结果：${query}","hits_time":"找到 ${hits} 个搜索结果（用时 ${time} 毫秒）","hits":"找到 ${hits} 个搜索结果"},"path":"/search.xml","localsearch":{"enable":true,"top_n_per_article":1,"unescape":false,"preload":false}}</script><script src="/js/config.js"></script>
+
+    <meta name="description" content="一、标题  语法：# （一级标题） ## （二级标题） ### （三级标题）   代码：  123# 一级标题## 二级标题### 三级标题  快捷键：  Ctrl+数字1-6可以快速将选中文本调成对应级别的标题 Ctrl+0可以快速将选中文本调成普通文本 Ctrl+“+” &#x2F; “-”可以对标题级别进行加减">
+<meta property="og:type" content="article">
+<meta property="og:title" content="MarkDown语法">
+<meta property="og:url" content="https://chandie-zhang.netlify.app/2024/10/04/MarkDown%E8%AF%AD%E6%B3%95/index.html">
+<meta property="og:site_name" content="Chandieの博客">
+<meta property="og:description" content="一、标题  语法：# （一级标题） ## （二级标题） ### （三级标题）   代码：  123# 一级标题## 二级标题### 三级标题  快捷键：  Ctrl+数字1-6可以快速将选中文本调成对应级别的标题 Ctrl+0可以快速将选中文本调成普通文本 Ctrl+“+” &#x2F; “-”可以对标题级别进行加减">
+<meta property="og:locale" content="zh_CN">
+<meta property="og:image" content="https://chandie-zhang.netlify.app/2024/10/04/MarkDown%E8%AF%AD%E6%B3%95/15059183055768896.png">
+<meta property="article:published_time" content="2024-10-04T06:10:51.000Z">
+<meta property="article:modified_time" content="2024-10-15T13:38:30.331Z">
+<meta property="article:author" content="Chandie Zhang">
+<meta property="article:tag" content="MarkDown语法">
+<meta property="article:tag" content="基础技能">
+<meta name="twitter:card" content="summary">
+<meta name="twitter:image" content="https://chandie-zhang.netlify.app/2024/10/04/MarkDown%E8%AF%AD%E6%B3%95/15059183055768896.png">
+
+
+<link rel="canonical" href="https://chandie-zhang.netlify.app/2024/10/04/MarkDown%E8%AF%AD%E6%B3%95/">
+
+
+
+<script class="next-config" data-name="page" type="application/json">{"sidebar":"","isHome":false,"isPost":true,"lang":"zh-CN","comments":true,"permalink":"https://chandie-zhang.netlify.app/2024/10/04/MarkDown%E8%AF%AD%E6%B3%95/","path":"2024/10/04/MarkDown语法/","title":"MarkDown语法"}</script>
+
+<script class="next-config" data-name="calendar" type="application/json">""</script>
+<title>MarkDown语法 | Chandieの博客</title>
+  
+
+
+
+
+
+
+
+
+  <noscript>
+    <link rel="stylesheet" href="/css/noscript.css">
+  </noscript>
+</head>
+
+<body itemscope itemtype="http://schema.org/WebPage" class="use-motion">
+  <div class="headband"></div>
+
+  <main class="main">
+    <div class="column">
+      <header class="header" itemscope itemtype="http://schema.org/WPHeader"><div class="site-brand-container">
+  <div class="site-nav-toggle">
+    <div class="toggle" aria-label="切换导航栏" role="button">
+        <span class="toggle-line"></span>
+        <span class="toggle-line"></span>
+        <span class="toggle-line"></span>
+    </div>
+  </div>
+
+  <div class="site-meta">
+
+    <a href="/" class="brand" rel="start">
+      <i class="logo-line"></i>
+      <p class="site-title">Chandieの博客</p>
+      <i class="logo-line"></i>
+    </a>
+      <p class="site-subtitle" itemprop="description">高中生物</p>
+  </div>
+
+  <div class="site-nav-right">
+    <div class="toggle popup-trigger" aria-label="搜索" role="button">
+        <i class="fa fa-search fa-fw fa-lg"></i>
+    </div>
+  </div>
+</div>
+
+
+
+<nav class="site-nav">
+  <ul class="main-menu menu"><li class="menu-item menu-item-home"><a href="/" rel="section"><i class="fa fa-home fa-fw"></i>首页</a></li><li class="menu-item menu-item-tags"><a href="/tags/" rel="section"><i class="fa fa-tags fa-fw"></i>标签</a></li><li class="menu-item menu-item-categories"><a href="/categories/" rel="section"><i class="fa fa-th fa-fw"></i>分类</a></li><li class="menu-item menu-item-archives"><a href="/archives/" rel="section"><i class="fa fa-archive fa-fw"></i>归档</a></li>
+      <li class="menu-item menu-item-search">
+        <a role="button" class="popup-trigger"><i class="fa fa-search fa-fw"></i>搜索
+        </a>
+      </li>
+  </ul>
+</nav>
+
+
+
+  <div class="search-pop-overlay">
+    <div class="popup search-popup">
+      <div class="search-header">
+        <span class="search-icon">
+          <i class="fa fa-search"></i>
+        </span>
+        <div class="search-input-container">
+          <input autocomplete="off" autocapitalize="off" maxlength="80"
+                placeholder="搜索..." spellcheck="false"
+                type="search" class="search-input">
+        </div>
+        <span class="popup-btn-close" role="button">
+          <i class="fa fa-times-circle"></i>
+        </span>
+      </div>
+      <div class="search-result-container">
+        <div class="search-result-icon">
+          <i class="fa fa-spinner fa-pulse fa-5x"></i>
+        </div>
+      </div>
+    </div>
+  </div>
+
+</header>
+        
+  
+  <aside class="sidebar">
+
+    <div class="sidebar-inner sidebar-nav-active sidebar-toc-active">
+      <ul class="sidebar-nav">
+        <li class="sidebar-nav-toc">
+          文章目录
+        </li>
+        <li class="sidebar-nav-overview">
+          站点概览
+        </li>
+      </ul>
+
+      <div class="sidebar-panel-container">
+        <!--noindex-->
+        <div class="post-toc-wrap sidebar-panel">
+            <div class="post-toc animated"><ol class="nav"><li class="nav-item nav-level-2"><a class="nav-link" href="#%E4%B8%80-%E6%A0%87%E9%A2%98"><span class="nav-number">1.</span> <span class="nav-text"> 一、标题</span></a></li><li class="nav-item nav-level-2"><a class="nav-link" href="#%E4%BA%8C-%E6%AE%B5%E8%90%BD"><span class="nav-number">2.</span> <span class="nav-text"> 二、段落</span></a><ol class="nav-child"><li class="nav-item nav-level-3"><a class="nav-link" href="#1-%E6%8D%A2%E8%A1%8C"><span class="nav-number">2.1.</span> <span class="nav-text"> 1、换行</span></a></li><li class="nav-item nav-level-3"><a class="nav-link" href="#2-%E5%88%86%E5%89%B2%E7%BA%BF"><span class="nav-number">2.2.</span> <span class="nav-text"> 2、分割线</span></a></li></ol></li><li class="nav-item nav-level-2"><a class="nav-link" href="#%E4%B8%89-%E6%96%87%E5%AD%97%E6%98%BE%E7%A4%BA"><span class="nav-number">3.</span> <span class="nav-text"> 三、文字显示</span></a><ol class="nav-child"><li class="nav-item nav-level-3"><a class="nav-link" href="#1-%E5%AD%97%E4%BD%93"><span class="nav-number">3.1.</span> <span class="nav-text"> 1、字体</span></a></li><li class="nav-item nav-level-3"><a class="nav-link" href="#2-%E4%B8%8A%E4%B8%8B%E6%A0%87"><span class="nav-number">3.2.</span> <span class="nav-text"> 2、上下标</span></a></li></ol></li><li class="nav-item nav-level-2"><a class="nav-link" href="#%E5%9B%9B-%E5%88%97%E8%A1%A8"><span class="nav-number">4.</span> <span class="nav-text"> 四、列表</span></a><ol class="nav-child"><li class="nav-item nav-level-3"><a class="nav-link" href="#1-%E6%97%A0%E5%BA%8F%E5%88%97%E8%A1%A8"><span class="nav-number">4.1.</span> <span class="nav-text"> 1、无序列表</span></a></li><li class="nav-item nav-level-3"><a class="nav-link" href="#2-%E6%9C%89%E5%BA%8F%E5%88%97%E8%A1%A8"><span class="nav-number">4.2.</span> <span class="nav-text"> 2、有序列表</span></a></li><li class="nav-item nav-level-3"><a class="nav-link" href="#3-%E4%BB%BB%E5%8A%A1%E5%88%97%E8%A1%A8"><span class="nav-number">4.3.</span> <span class="nav-text"> 3、任务列表</span></a></li></ol></li><li class="nav-item nav-level-2"><a class="nav-link" href="#%E4%BA%94-%E5%8C%BA%E5%9D%97%E6%98%BE%E7%A4%BA"><span class="nav-number">5.</span> <span class="nav-text"> 五、区块显示</span></a></li><li class="nav-item nav-level-2"><a class="nav-link" href="#%E5%85%AD-%E4%BB%A3%E7%A0%81%E6%98%BE%E7%A4%BA"><span class="nav-number">6.</span> <span class="nav-text"> 六、代码显示</span></a><ol class="nav-child"><li class="nav-item nav-level-3"><a class="nav-link" href="#1-%E8%A1%8C%E5%86%85%E4%BB%A3%E7%A0%81"><span class="nav-number">6.1.</span> <span class="nav-text"> 1、行内代码</span></a></li><li class="nav-item nav-level-3"><a class="nav-link" href="#2-%E4%BB%A3%E7%A0%81%E5%9D%97"><span class="nav-number">6.2.</span> <span class="nav-text"> 2、代码块</span></a></li></ol></li><li class="nav-item nav-level-2"><a class="nav-link" href="#%E4%B8%83-%E9%93%BE%E6%8E%A5"><span class="nav-number">7.</span> <span class="nav-text"> 七、链接</span></a></li><li class="nav-item nav-level-2"><a class="nav-link" href="#%E5%85%AB-%E8%84%9A%E6%B3%A8"><span class="nav-number">8.</span> <span class="nav-text"> 八、脚注</span></a></li><li class="nav-item nav-level-2"><a class="nav-link" href="#%E4%B9%9D-%E5%9B%BE%E7%89%87%E6%8F%92%E5%85%A5"><span class="nav-number">9.</span> <span class="nav-text"> 九、图片插入</span></a></li><li class="nav-item nav-level-2"><a class="nav-link" href="#%E5%8D%81-%E8%A1%A8%E6%A0%BC"><span class="nav-number">10.</span> <span class="nav-text"> 十、表格</span></a></li><li class="nav-item nav-level-2"><a class="nav-link" href="#%E5%8D%81%E4%B8%80-%E6%B5%81%E7%A8%8B%E5%9B%BE"><span class="nav-number">11.</span> <span class="nav-text"> 十一、流程图</span></a><ol class="nav-child"><li class="nav-item nav-level-3"><a class="nav-link" href="#1-%E6%B5%81%E7%A8%8B%E5%9B%BE"><span class="nav-number">11.1.</span> <span class="nav-text"> 1、流程图</span></a></li><li class="nav-item nav-level-3"><a class="nav-link" href="#2-%E6%80%9D%E7%BB%B4%E5%AF%BC%E5%9B%BE"><span class="nav-number">11.2.</span> <span class="nav-text"> 2、思维导图</span></a></li></ol></li><li class="nav-item nav-level-2"><a class="nav-link" href="#%E5%8D%81%E4%BA%8C-%E8%A1%A8%E6%83%85%E7%AC%A6%E5%8F%B7"><span class="nav-number">12.</span> <span class="nav-text"> 十二、表情符号</span></a></li><li class="nav-item nav-level-2"><a class="nav-link" href="#%E5%8D%81%E4%B8%89-%E6%95%B0%E5%AD%A6%E5%85%AC%E5%BC%8F%E8%BE%93%E5%85%A5"><span class="nav-number">13.</span> <span class="nav-text"> 十三、数学公式输入</span></a><ol class="nav-child"><li class="nav-item nav-level-3"><a class="nav-link" href="#1-%E5%85%AC%E5%BC%8F%E6%8F%92%E5%85%A5"><span class="nav-number">13.1.</span> <span class="nav-text"> 1、公式插入</span></a><ol class="nav-child"><li class="nav-item nav-level-4"><a class="nav-link" href="#1%E8%A1%8C%E4%B8%AD%E5%85%AC%E5%BC%8F"><span class="nav-number">13.1.1.</span> <span class="nav-text"> ①行中公式</span></a></li><li class="nav-item nav-level-4"><a class="nav-link" href="#2%E7%8B%AC%E7%AB%8B%E5%85%AC%E5%BC%8F"><span class="nav-number">13.1.2.</span> <span class="nav-text"> ②独立公式</span></a></li></ol></li><li class="nav-item nav-level-3"><a class="nav-link" href="#2-%E4%B8%8A%E4%B8%8B%E6%A0%87-2"><span class="nav-number">13.2.</span> <span class="nav-text"> 2、上下标</span></a></li><li class="nav-item nav-level-3"><a class="nav-link" href="#3-%E5%88%86%E6%95%B0"><span class="nav-number">13.3.</span> <span class="nav-text"> 3、分数</span></a></li><li class="nav-item nav-level-3"><a class="nav-link" href="#4-%E5%BC%80%E6%96%B9"><span class="nav-number">13.4.</span> <span class="nav-text"> 4、开方</span></a></li><li class="nav-item nav-level-3"><a class="nav-link" href="#5-%E9%A2%9C%E8%89%B2"><span class="nav-number">13.5.</span> <span class="nav-text"> 5、颜色</span></a></li></ol></li><li class="nav-item nav-level-2"><a class="nav-link" href="#%E5%8D%81%E5%9B%9B-%E6%94%AF%E6%8C%81%E7%9A%84html%E5%85%83%E7%B4%A0"><span class="nav-number">14.</span> <span class="nav-text"> 十四、支持的HTML元素</span></a><ol class="nav-child"><li class="nav-item nav-level-3"><a class="nav-link" href="#1-%E5%AD%97%E4%BD%93-%E5%AD%97%E5%8F%B7-%E9%A2%9C%E8%89%B2-%E8%83%8C%E6%99%AF"><span class="nav-number">14.1.</span> <span class="nav-text"> 1、字体、字号、颜色、背景</span></a></li><li class="nav-item nav-level-3"><a class="nav-link" href="#2-%E5%AE%9E%E7%8E%B0%E4%B8%8A%E5%88%92%E7%BA%BF"><span class="nav-number">14.2.</span> <span class="nav-text"> 2、实现上划线</span></a></li><li class="nav-item nav-level-3"><a class="nav-link" href="#3-%E5%9B%BE%E7%89%87%E5%A4%84%E7%90%86%E6%8A%80%E5%B7%A7"><span class="nav-number">14.3.</span> <span class="nav-text"> 3、图片处理技巧</span></a></li></ol></li></ol></div>
+        </div>
+        <!--/noindex-->
+
+        <div class="site-overview-wrap sidebar-panel">
+          <div class="site-author animated" itemprop="author" itemscope itemtype="http://schema.org/Person">
+  <p class="site-author-name" itemprop="name">Chandie Zhang</p>
+  <div class="site-description" itemprop="description">无人扶我青云志 我自踏雪至山巅</div>
+</div>
+<div class="site-state-wrap animated">
+  <nav class="site-state">
+      <div class="site-state-item site-state-posts">
+        <a href="/archives/">
+          <span class="site-state-item-count">14</span>
+          <span class="site-state-item-name">日志</span>
+        </a>
+      </div>
+      <div class="site-state-item site-state-categories">
+          <a href="/categories/">
+        <span class="site-state-item-count">10</span>
+        <span class="site-state-item-name">分类</span></a>
+      </div>
+      <div class="site-state-item site-state-tags">
+          <a href="/tags/">
+        <span class="site-state-item-count">5</span>
+        <span class="site-state-item-name">标签</span></a>
+      </div>
+  </nav>
+</div>
+  <div class="links-of-author animated">
+      <span class="links-of-author-item">
+        <a href="https://github.com/chandie-zhang" title="GitHub → https:&#x2F;&#x2F;github.com&#x2F;chandie-zhang" rel="noopener me" target="_blank"><i class="fab fa-github fa-fw"></i>GitHub</a>
+      </span>
+  </div>
+  <div class="cc-license animated" itemprop="license">
+    <a href="https://creativecommons.org/licenses/by-nc-sa/4.0/deed.z" class="cc-opacity" rel="noopener" target="_blank"><img src="https://cdnjs.cloudflare.com/ajax/libs/creativecommons-vocabulary/2020.11.3/assets/license_badges/big/by_nc_sa.svg" alt="Creative Commons"></a>
+  </div>
+
+        </div>
+      </div>
+    </div>
+
+    
+  </aside>
+
+
+    </div>
+
+    <div class="main-inner post posts-expand">
+
+
+  
+
+
+<div class="post-block">
+  
+  
+
+  <article itemscope itemtype="http://schema.org/Article" class="post-content" lang="zh-CN">
+    <link itemprop="mainEntityOfPage" href="https://chandie-zhang.netlify.app/2024/10/04/MarkDown%E8%AF%AD%E6%B3%95/">
+
+    <span hidden itemprop="author" itemscope itemtype="http://schema.org/Person">
+      <meta itemprop="image" content="/images/avatar.gif">
+      <meta itemprop="name" content="Chandie Zhang">
+    </span>
+
+    <span hidden itemprop="publisher" itemscope itemtype="http://schema.org/Organization">
+      <meta itemprop="name" content="Chandieの博客">
+      <meta itemprop="description" content="无人扶我青云志 我自踏雪至山巅">
+    </span>
+
+    <span hidden itemprop="post" itemscope itemtype="http://schema.org/CreativeWork">
+      <meta itemprop="name" content="MarkDown语法 | Chandieの博客">
+      <meta itemprop="description" content="">
+    </span>
+      <header class="post-header">
+        <h1 class="post-title" itemprop="name headline">
+          MarkDown语法
+        </h1>
+
+        <div class="post-meta-container">
+          <div class="post-meta">
+    <span class="post-meta-item">
+      <span class="post-meta-item-icon">
+        <i class="far fa-calendar"></i>
+      </span>
+      <span class="post-meta-item-text">发表于</span>
+
+      <time title="创建时间：2024-10-04 14:10:51" itemprop="dateCreated datePublished" datetime="2024-10-04T14:10:51+08:00">2024-10-04</time>
+    </span>
+    <span class="post-meta-item">
+      <span class="post-meta-item-icon">
+        <i class="far fa-calendar-check"></i>
+      </span>
+      <span class="post-meta-item-text">更新时间：</span>
+      <time title="修改时间：2024-10-15 21:38:30" itemprop="dateModified" datetime="2024-10-15T21:38:30+08:00">2024-10-15</time>
+    </span>
+    <span class="post-meta-item">
+      <span class="post-meta-item-icon">
+        <i class="far fa-folder"></i>
+      </span>
+      <span class="post-meta-item-text">分类</span>
+        <span itemprop="about" itemscope itemtype="http://schema.org/Thing">
+          <a href="/categories/%E5%9F%BA%E7%A1%80%E6%8A%80%E8%83%BD/" itemprop="url" rel="index"><span itemprop="name">基础技能</span></a>
+        </span>
+          ，
+        <span itemprop="about" itemscope itemtype="http://schema.org/Thing">
+          <a href="/categories/%E5%9F%BA%E7%A1%80%E6%8A%80%E8%83%BD/MarkDown/" itemprop="url" rel="index"><span itemprop="name">MarkDown</span></a>
+        </span>
+    </span>
+
+  
+    <span class="post-meta-item" title="阅读次数" id="busuanzi_container_page_pv">
+      <span class="post-meta-item-icon">
+        <i class="far fa-eye"></i>
+      </span>
+      <span class="post-meta-item-text">阅读次数：</span>
+      <span id="busuanzi_value_page_pv"></span>
+    </span>
+</div>
+
+        </div>
+      </header>
+
+    
+    
+    
+    <div class="post-body" itemprop="articleBody"><h2 id="一-标题"><a class="markdownIt-Anchor" href="#一-标题"></a> 一、标题</h2>
+<blockquote>
+<p>语法：# （一级标题） ## （二级标题） ### （三级标题）</p>
+</blockquote>
+<blockquote>
+<p>代码：</p>
+</blockquote>
+<figure class="highlight markdown"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br></pre></td><td class="code"><pre><span class="line"><span class="section"># 一级标题</span></span><br><span class="line"><span class="section">## 二级标题</span></span><br><span class="line"><span class="section">### 三级标题</span></span><br></pre></td></tr></table></figure>
+<blockquote>
+<p>快捷键：</p>
+<ul>
+<li>Ctrl+数字1-6可以快速将选中文本调成对应级别的标题</li>
+<li>Ctrl+0可以快速将选中文本调成普通文本</li>
+<li>Ctrl+“+” / “-”可以对标题级别进行加减</li>
+</ul>
+</blockquote>
+<span id="more"></span>
+<h2 id="二-段落"><a class="markdownIt-Anchor" href="#二-段落"></a> 二、段落</h2>
+<h3 id="1-换行"><a class="markdownIt-Anchor" href="#1-换行"></a> 1、换行</h3>
+<blockquote>
+<p>快捷键：</p>
+<figure class="highlight plaintext"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br></pre></td><td class="code"><pre><span class="line">Enter是大换行，段落之间间距较大</span><br><span class="line">Shift+Enter是小换行，段落之间间距较小</span><br></pre></td></tr></table></figure>
+</blockquote>
+<blockquote>
+<p>效果：</p>
+<p>这是一个段落</p>
+<p>这是另一个段落（大换行）<br />
+这又是一个段落（小换行）</p>
+</blockquote>
+<h3 id="2-分割线"><a class="markdownIt-Anchor" href="#2-分割线"></a> 2、分割线</h3>
+<blockquote>
+<p>语法：—或者***+Enter</p>
+</blockquote>
+<blockquote>
+<p>代码：</p>
+<figure class="highlight markdown"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">---或者***</span><br></pre></td></tr></table></figure>
+</blockquote>
+<blockquote>
+<p>效果：</p>
+<hr />
+<hr />
+</blockquote>
+<h2 id="三-文字显示"><a class="markdownIt-Anchor" href="#三-文字显示"></a> 三、文字显示</h2>
+<h3 id="1-字体"><a class="markdownIt-Anchor" href="#1-字体"></a> 1、字体</h3>
+<blockquote>
+<p>语法：</p>
+<ul>
+<li>粗体：双 ** 包裹</li>
+<li>删除线：双 ~~ 包裹</li>
+<li>下划线：<u></u>包裹</li>
+<li>斜体：单 * 包裹</li>
+<li>高亮： 双 == 包裹</li>
+</ul>
+</blockquote>
+<blockquote>
+<p>代码：</p>
+<figure class="highlight markdown"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br></pre></td><td class="code"><pre><span class="line"> <span class="strong">**粗体**</span></span><br><span class="line"> ~~删除线~~</span><br><span class="line"> <span class="language-xml"><span class="tag">&lt;<span class="name">u</span>&gt;</span></span>下划线<span class="language-xml"><span class="tag">&lt;/<span class="name">u</span>&gt;</span></span></span><br><span class="line"> <span class="emphasis">*斜体*</span></span><br><span class="line">==高亮==</span><br></pre></td></tr></table></figure>
+</blockquote>
+<blockquote>
+<p>效果：</p>
+<p><strong>粗体</strong></p>
+<p><s>删除线</s></p>
+<p><u>下划线</u></p>
+<p><em>斜体</em></p>
+<p><mark>高亮</mark></p>
+</blockquote>
+<blockquote>
+<p>快捷键：</p>
+<ul>
+<li>粗体：Ctrl+B</li>
+<li>斜体：Ctrl+I</li>
+<li>删除线：Alt+Shift+5</li>
+<li>下划线：Ctrl+U</li>
+</ul>
+</blockquote>
+<h3 id="2-上下标"><a class="markdownIt-Anchor" href="#2-上下标"></a> 2、上下标</h3>
+<blockquote>
+<p>语法：</p>
+<figure class="highlight markdown"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br></pre></td><td class="code"><pre><span class="line">X^2^</span><br><span class="line">H~2~O</span><br></pre></td></tr></table></figure>
+<p>效果：</p>
+<p>X<sup>2</sup></p>
+<p>H<sub>2</sub>O</p>
+<p>x<sub>1</sub><sup>2</sup>（上下标渲染）   <span class="katex"><span class="katex-mathml"><math xmlns="http://www.w3.org/1998/Math/MathML"><semantics><mrow><msubsup><mi>x</mi><mn>1</mn><mn>2</mn></msubsup></mrow><annotation encoding="application/x-tex">x_1^2</annotation></semantics></math></span><span class="katex-html" aria-hidden="true"><span class="base"><span class="strut" style="height:1.0622159999999998em;vertical-align:-0.24810799999999997em;"></span><span class="mord"><span class="mord mathnormal">x</span><span class="msupsub"><span class="vlist-t vlist-t2"><span class="vlist-r"><span class="vlist" style="height:0.8141079999999999em;"><span style="top:-2.4518920000000004em;margin-left:0em;margin-right:0.05em;"><span class="pstrut" style="height:2.7em;"></span><span class="sizing reset-size6 size3 mtight"><span class="mord mtight">1</span></span></span><span style="top:-3.063em;margin-right:0.05em;"><span class="pstrut" style="height:2.7em;"></span><span class="sizing reset-size6 size3 mtight"><span class="mord mtight">2</span></span></span></span><span class="vlist-s">​</span></span><span class="vlist-r"><span class="vlist" style="height:0.24810799999999997em;"><span></span></span></span></span></span></span></span></span></span>（数学公式渲染）</p>
+</blockquote>
+<h2 id="四-列表"><a class="markdownIt-Anchor" href="#四-列表"></a> 四、列表</h2>
+<h3 id="1-无序列表"><a class="markdownIt-Anchor" href="#1-无序列表"></a> 1、无序列表</h3>
+<blockquote>
+<p>语法：</p>
+<figure class="highlight plaintext"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">* / - /  + +空格</span><br></pre></td></tr></table></figure>
+</blockquote>
+<blockquote>
+<p>效果：</p>
+<ul>
+<li>一级分类</li>
+<li>二级分类
+<ul>
+<li>小标题</li>
+</ul>
+</li>
+<li>三级分类</li>
+</ul>
+</blockquote>
+<blockquote>
+<p>快捷键：Ctrl+Shift+]</p>
+<p>提高级别：Ctrl+[ 或者直接 Shift + Tab</p>
+<p>降低级别：Ctrl+] 或者直接 Tab</p>
+</blockquote>
+<h3 id="2-有序列表"><a class="markdownIt-Anchor" href="#2-有序列表"></a> 2、有序列表</h3>
+<blockquote>
+<p>语法：</p>
+<figure class="highlight markdown"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">数字+&quot;.&quot;+空格</span><br></pre></td></tr></table></figure>
+</blockquote>
+<blockquote>
+<p>效果：</p>
+<ol>
+<li>第一个</li>
+<li>第二个
+<ol>
+<li>二级标题
+<ol>
+<li>三级标题</li>
+</ol>
+</li>
+</ol>
+</li>
+<li>第三个</li>
+</ol>
+</blockquote>
+<blockquote>
+<p>快捷键：Ctrl+Shift+[</p>
+</blockquote>
+<blockquote>
+<p>有序无需嵌套效果</p>
+<ol>
+<li>
+<p>有序列表</p>
+</li>
+<li>
+<p>有序列表</p>
+<ul>
+<li>
+<p>无需列表</p>
+<p>图片</p>
+</li>
+<li>
+<p>无序列表</p>
+</li>
+</ul>
+</li>
+<li>
+<p>有序列表</p>
+</li>
+</ol>
+</blockquote>
+<h3 id="3-任务列表"><a class="markdownIt-Anchor" href="#3-任务列表"></a> 3、任务列表</h3>
+<blockquote>
+<p>语法：无序列表+空中括号+空格（-[ ] ）</p>
+</blockquote>
+<blockquote>
+<p>代码：</p>
+<figure class="highlight tex"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br></pre></td><td class="code"><pre><span class="line">-[ ] 吃早饭</span><br><span class="line">-[ ] 背单词</span><br></pre></td></tr></table></figure>
+</blockquote>
+<blockquote>
+<p>效果：</p>
+<ul>
+<li>
+<p>[ ] 吃早饭</p>
+</li>
+<li>
+<p>[x] 背单词</p>
+</li>
+</ul>
+</blockquote>
+<h2 id="五-区块显示"><a class="markdownIt-Anchor" href="#五-区块显示"></a> 五、区块显示</h2>
+<blockquote>
+<p>语法：&gt; + 空格/回车</p>
+</blockquote>
+<blockquote>
+<p>效果：</p>
+<blockquote>
+<p>外层区块</p>
+<blockquote>
+<p>内层区块</p>
+<blockquote>
+<p>支持嵌套</p>
+</blockquote>
+</blockquote>
+</blockquote>
+</blockquote>
+<h2 id="六-代码显示"><a class="markdownIt-Anchor" href="#六-代码显示"></a> 六、代码显示</h2>
+<h3 id="1-行内代码"><a class="markdownIt-Anchor" href="#1-行内代码"></a> 1、行内代码</h3>
+<blockquote>
+<p>代码：</p>
+<figure class="highlight plaintext"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">` int a = 0`</span><br></pre></td></tr></table></figure>
+</blockquote>
+<blockquote>
+<p>效果：</p>
+<p><code>int a = 0</code></p>
+</blockquote>
+<blockquote>
+<p>快捷键：Ctrl+Shift+`</p>
+</blockquote>
+<h3 id="2-代码块"><a class="markdownIt-Anchor" href="#2-代码块"></a> 2、代码块</h3>
+<blockquote>
+<p>代码：</p>
+<figure class="highlight plaintext"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br></pre></td><td class="code"><pre><span class="line">```语言种类，eg：Java</span><br><span class="line">内容</span><br><span class="line">```</span><br></pre></td></tr></table></figure>
+</blockquote>
+<blockquote>
+<p>快捷键：Ctrl+Shi+K</p>
+<p>效果：</p>
+<figure class="highlight js"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line"><span class="keyword">var</span> a = &#123; <span class="attr">name</span>:<span class="string">&#x27;张三&#x27;</span>，<span class="attr">age</span>:<span class="string">&#x27;18&#x27;</span>&#125;</span><br></pre></td></tr></table></figure>
+</blockquote>
+<h2 id="七-链接"><a class="markdownIt-Anchor" href="#七-链接"></a> 七、链接</h2>
+<blockquote>
+<p>语法：[显示名称](网址，提示信息)</p>
+<p>代码：</p>
+<figure class="highlight plaintext"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br></pre></td><td class="code"><pre><span class="line">www.baidu.com</span><br><span class="line">[百度一下](www.baidu.com)</span><br><span class="line">[百度一下](www.baidu.com &quot;https://www.baidu.com&quot;)</span><br></pre></td></tr></table></figure>
+</blockquote>
+<blockquote>
+<p>效果：</p>
+<p><a target="_blank" rel="noopener" href="http://www.baidu.com">www.baidu.com</a><br />
+<a href="www.baidu.com">百度一下</a><br />
+<a href="www.baidu.com" title="https://www.baidu.com">百度一下</a></p>
+</blockquote>
+<h2 id="八-脚注"><a class="markdownIt-Anchor" href="#八-脚注"></a> 八、脚注</h2>
+<blockquote>
+<p>作用：解释说明</p>
+</blockquote>
+<blockquote>
+<p>语法：</p>
+<figure class="highlight js"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br></pre></td><td class="code"><pre><span class="line">[^文本内容] <span class="comment">//这里的文本内容可以是标号，也可以是你想填写的内容</span></span><br><span class="line">[^文本内容]:解释说明 <span class="comment">//这个里的文本内容和你对应的需要解释说明不为的标注一致</span></span><br></pre></td></tr></table></figure>
+</blockquote>
+<blockquote>
+<p>效果：</p>
+<p>Markdown语法<sup class="footnote-ref"><a href="#fn1" id="fnref1">[1]</a></sup></p>
+</blockquote>
+<h2 id="九-图片插入"><a class="markdownIt-Anchor" href="#九-图片插入"></a> 九、图片插入</h2>
+<blockquote>
+<p>语法：</p>
+<figure class="highlight js"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">![图片名称](图片路径 <span class="string">&quot;图片标题&quot;</span>) <span class="comment">//图片名称不显示在页面</span></span><br></pre></td></tr></table></figure>
+</blockquote>
+<blockquote>
+<p>效果：</p>
+<img src="/2024/10/04/MarkDown%E8%AF%AD%E6%B3%95/15059183055768896.png" class="" title="img">
+</blockquote>
+<blockquote>
+<p>快捷键：Ctrl+Shift+I</p>
+</blockquote>
+<h2 id="十-表格"><a class="markdownIt-Anchor" href="#十-表格"></a> 十、表格</h2>
+<blockquote>
+<p>代码：</p>
+<figure class="highlight markdown"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br></pre></td><td class="code"><pre><span class="line">|  1   |  2   |  3   |</span><br><span class="line">| :--: | :--: | :--: |</span><br><span class="line">|  4   |  5   |  6   |</span><br><span class="line">|  7   |  8   |  9   |</span><br><span class="line">|  10  |  11  |  12  |</span><br></pre></td></tr></table></figure>
+</blockquote>
+<blockquote>
+<p>效果：</p>
+<table>
+<thead>
+<tr>
+<th style="text-align:center">1</th>
+<th style="text-align:center">2</th>
+<th style="text-align:center">3</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td style="text-align:center">4</td>
+<td style="text-align:center">5</td>
+<td style="text-align:center">6</td>
+</tr>
+<tr>
+<td style="text-align:center">7</td>
+<td style="text-align:center">8</td>
+<td style="text-align:center">9</td>
+</tr>
+<tr>
+<td style="text-align:center">10</td>
+<td style="text-align:center">11</td>
+<td style="text-align:center">12</td>
+</tr>
+</tbody>
+</table>
+<p>快捷键：Ctrl+T（推荐）</p>
+</blockquote>
+<h2 id="十一-流程图"><a class="markdownIt-Anchor" href="#十一-流程图"></a> 十一、流程图</h2>
+<h3 id="1-流程图"><a class="markdownIt-Anchor" href="#1-流程图"></a> 1、流程图</h3>
+<pre><code class="highlight mermaid">graph LR
+A---&gt;B
+B---&gt;c
+B---&gt;D</code></pre>
+<h3 id="2-思维导图"><a class="markdownIt-Anchor" href="#2-思维导图"></a> 2、思维导图</h3>
+<pre><code class="highlight mermaid">mindmap
+  root((mindmap))
+    Origins
+      Long history
+      ::icon(fa fa-book)
+      Popularisation
+        British popular psychology author Tony Buzan
+    Research
+      On effectiveness&lt;br/&gt;and features
+      On Automatic creation
+        Uses
+            Creative techniques
+            Strategic planning
+            Argument mapping
+    Tools
+      Pen and paper
+      Mermaid</code></pre>
+<h2 id="十二-表情符号"><a class="markdownIt-Anchor" href="#十二-表情符号"></a> 十二、表情符号</h2>
+<blockquote>
+<p>表情符号：</p>
+<p>😂😎</p>
+</blockquote>
+<blockquote>
+<p>颜文字：</p>
+<p>ヾ(≧▽≦*)o</p>
+</blockquote>
+<blockquote>
+<p>符号：</p>
+<p>① ™ ‱ φ μ</p>
+</blockquote>
+<blockquote>
+<p>快捷键：win + 。（推荐）</p>
+</blockquote>
+<h2 id="十三-数学公式输入"><a class="markdownIt-Anchor" href="#十三-数学公式输入"></a> 十三、数学公式输入</h2>
+<h3 id="1-公式插入"><a class="markdownIt-Anchor" href="#1-公式插入"></a> 1、公式插入</h3>
+<h4 id="1行中公式"><a class="markdownIt-Anchor" href="#1行中公式"></a> ①行中公式</h4>
+<blockquote>
+<p>代码：</p>
+<figure class="highlight plaintext"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">$公式$</span><br></pre></td></tr></table></figure>
+<p>效果：<span class="katex"><span class="katex-mathml"><math xmlns="http://www.w3.org/1998/Math/MathML"><semantics><mrow><mi>x</mi></mrow><annotation encoding="application/x-tex">x</annotation></semantics></math></span><span class="katex-html" aria-hidden="true"><span class="base"><span class="strut" style="height:0.43056em;vertical-align:0em;"></span><span class="mord mathnormal">x</span></span></span></span></p>
+</blockquote>
+<h4 id="2独立公式"><a class="markdownIt-Anchor" href="#2独立公式"></a> ②独立公式</h4>
+<blockquote>
+<p>代码：</p>
+<figure class="highlight plaintext"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br></pre></td><td class="code"><pre><span class="line">$$</span><br><span class="line">公式</span><br><span class="line">$$</span><br></pre></td></tr></table></figure>
+<p>效果:</p>
+<p class='katex-block'><span class="katex-display"><span class="katex"><span class="katex-mathml"><math xmlns="http://www.w3.org/1998/Math/MathML" display="block"><semantics><mrow><msubsup><mi>x</mi><mn>1</mn><mn>2</mn></msubsup></mrow><annotation encoding="application/x-tex">x_1^2
+</annotation></semantics></math></span><span class="katex-html" aria-hidden="true"><span class="base"><span class="strut" style="height:1.1111079999999998em;vertical-align:-0.247em;"></span><span class="mord"><span class="mord mathnormal">x</span><span class="msupsub"><span class="vlist-t vlist-t2"><span class="vlist-r"><span class="vlist" style="height:0.8641079999999999em;"><span style="top:-2.4530000000000003em;margin-left:0em;margin-right:0.05em;"><span class="pstrut" style="height:2.7em;"></span><span class="sizing reset-size6 size3 mtight"><span class="mord mtight">1</span></span></span><span style="top:-3.113em;margin-right:0.05em;"><span class="pstrut" style="height:2.7em;"></span><span class="sizing reset-size6 size3 mtight"><span class="mord mtight">2</span></span></span></span><span class="vlist-s">​</span></span><span class="vlist-r"><span class="vlist" style="height:0.247em;"><span></span></span></span></span></span></span></span></span></span></span></p>
+</blockquote>
+<h3 id="2-上下标-2"><a class="markdownIt-Anchor" href="#2-上下标-2"></a> 2、上下标</h3>
+<blockquote>
+<p>代码：</p>
+<figure class="highlight text"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br></pre></td><td class="code"><pre><span class="line">$x^&#123;12&#125;_1$</span><br><span class="line">$X^&#123;y^z&#125;=(1+e^x)^&#123;-2xy^w&#125;$</span><br><span class="line">$\sideset&#123;^1_2&#125;&#123;^3_4&#125;\bigotimes$</span><br><span class="line">$\sideset&#123;左侧符号&#125;&#123;右侧符号&#125;$</span><br><span class="line">$\underset&#123;下方的数值&#125;&#123;公式或数字&#125;$</span><br><span class="line">例如，要在字母的正下方添加数字，可以写成$\underset&#123;n&#125;&#123;x&#125;$</span><br><span class="line">$\sideset&#123;^1_2&#125;&#123;^3_4&#125;&#123;\underset&#123;6&#125;\bigotimes&#125;$</span><br></pre></td></tr></table></figure>
+</blockquote>
+<blockquote>
+<p>效果：</p>
+<p><span class="katex"><span class="katex-mathml"><math xmlns="http://www.w3.org/1998/Math/MathML"><semantics><mrow><msubsup><mi>x</mi><mn>1</mn><mn>12</mn></msubsup></mrow><annotation encoding="application/x-tex">x^{12}_1</annotation></semantics></math></span><span class="katex-html" aria-hidden="true"><span class="base"><span class="strut" style="height:1.0622159999999998em;vertical-align:-0.24810799999999997em;"></span><span class="mord"><span class="mord mathnormal">x</span><span class="msupsub"><span class="vlist-t vlist-t2"><span class="vlist-r"><span class="vlist" style="height:0.8141079999999999em;"><span style="top:-2.4518920000000004em;margin-left:0em;margin-right:0.05em;"><span class="pstrut" style="height:2.7em;"></span><span class="sizing reset-size6 size3 mtight"><span class="mord mtight">1</span></span></span><span style="top:-3.063em;margin-right:0.05em;"><span class="pstrut" style="height:2.7em;"></span><span class="sizing reset-size6 size3 mtight"><span class="mord mtight"><span class="mord mtight">1</span><span class="mord mtight">2</span></span></span></span></span><span class="vlist-s">​</span></span><span class="vlist-r"><span class="vlist" style="height:0.24810799999999997em;"><span></span></span></span></span></span></span></span></span></span></p>
+<p><span class="katex"><span class="katex-mathml"><math xmlns="http://www.w3.org/1998/Math/MathML"><semantics><mrow><msup><mi>X</mi><msubsup><mrow></mrow><mi>y</mi><mi>z</mi></msubsup></msup><mo>=</mo><mo stretchy="false">(</mo><mn>1</mn><mo>+</mo><msup><mi>e</mi><mi>x</mi></msup><msup><mo stretchy="false">)</mo><mrow><mo>−</mo><mn>2</mn><mi>x</mi><msup><mi>y</mi><mi>w</mi></msup></mrow></msup></mrow><annotation encoding="application/x-tex">X^{_y^z}=(1+e^x)^{-2xy^w}</annotation></semantics></math></span><span class="katex-html" aria-hidden="true"><span class="base"><span class="strut" style="height:0.92215em;vertical-align:0em;"></span><span class="mord"><span class="mord mathnormal" style="margin-right:0.07847em;">X</span><span class="msupsub"><span class="vlist-t"><span class="vlist-r"><span class="vlist" style="height:0.92215em;"><span style="top:-2.9221500000000002em;margin-right:0.05em;"><span class="pstrut" style="height:2.51698em;"></span><span class="sizing reset-size6 size3 mtight"><span class="mord mtight"><span class="mord mtight"><span></span><span class="msupsub"><span class="vlist-t vlist-t2"><span class="vlist-r"><span class="vlist" style="height:0.7385428571428572em;"><span style="top:-2.214em;margin-right:0.07142857142857144em;"><span class="pstrut" style="height:2.5em;"></span><span class="sizing reset-size3 size1 mtight"><span class="mord mathnormal mtight" style="margin-right:0.03588em;">y</span></span></span><span style="top:-2.931em;margin-right:0.07142857142857144em;"><span class="pstrut" style="height:2.5em;"></span><span class="sizing reset-size3 size1 mtight"><span class="mord mathnormal mtight" style="margin-right:0.04398em;">z</span></span></span></span><span class="vlist-s">​</span></span><span class="vlist-r"><span class="vlist" style="height:0.42488571428571426em;"><span></span></span></span></span></span></span></span></span></span></span></span></span></span></span><span class="mspace" style="margin-right:0.2777777777777778em;"></span><span class="mrel">=</span><span class="mspace" style="margin-right:0.2777777777777778em;"></span></span><span class="base"><span class="strut" style="height:1em;vertical-align:-0.25em;"></span><span class="mopen">(</span><span class="mord">1</span><span class="mspace" style="margin-right:0.2222222222222222em;"></span><span class="mbin">+</span><span class="mspace" style="margin-right:0.2222222222222222em;"></span></span><span class="base"><span class="strut" style="height:1.12998em;vertical-align:-0.25em;"></span><span class="mord"><span class="mord mathnormal">e</span><span class="msupsub"><span class="vlist-t"><span class="vlist-r"><span class="vlist" style="height:0.664392em;"><span style="top:-3.063em;margin-right:0.05em;"><span class="pstrut" style="height:2.7em;"></span><span class="sizing reset-size6 size3 mtight"><span class="mord mathnormal mtight">x</span></span></span></span></span></span></span></span><span class="mclose"><span class="mclose">)</span><span class="msupsub"><span class="vlist-t"><span class="vlist-r"><span class="vlist" style="height:0.87998em;"><span style="top:-3.063em;margin-right:0.05em;"><span class="pstrut" style="height:2.7em;"></span><span class="sizing reset-size6 size3 mtight"><span class="mord mtight"><span class="mord mtight">−</span><span class="mord mtight">2</span><span class="mord mathnormal mtight">x</span><span class="mord mtight"><span class="mord mathnormal mtight" style="margin-right:0.03588em;">y</span><span class="msupsub"><span class="vlist-t"><span class="vlist-r"><span class="vlist" style="height:0.7385428571428572em;"><span style="top:-2.931em;margin-right:0.07142857142857144em;"><span class="pstrut" style="height:2.5em;"></span><span class="sizing reset-size3 size1 mtight"><span class="mord mathnormal mtight" style="margin-right:0.02691em;">w</span></span></span></span></span></span></span></span></span></span></span></span></span></span></span></span></span></span></span></p>
+</blockquote>
+<h3 id="3-分数"><a class="markdownIt-Anchor" href="#3-分数"></a> 3、分数</h3>
+<blockquote>
+<p>代码：</p>
+<figure class="highlight plaintext"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br></pre></td><td class="code"><pre><span class="line">$\frac&#123;分子&#125;&#123;分母&#125;$</span><br><span class="line">$\frac&#123;1&#125;&#123;2&#125;$</span><br><span class="line">$\dfrac&#123;分子&#125;&#123;分母&#125;$ 不会对数字进行缩放</span><br><span class="line">$\dfrac&#123;1&#125;&#123;2*\dfrac&#123;1&#125;&#123;2&#125;&#125;$</span><br></pre></td></tr></table></figure>
+<p>效果：</p>
+<p><span class="katex"><span class="katex-mathml"><math xmlns="http://www.w3.org/1998/Math/MathML"><semantics><mrow><mfrac><mn>1</mn><mn>2</mn></mfrac></mrow><annotation encoding="application/x-tex">\frac{1}{2}</annotation></semantics></math></span><span class="katex-html" aria-hidden="true"><span class="base"><span class="strut" style="height:1.190108em;vertical-align:-0.345em;"></span><span class="mord"><span class="mopen nulldelimiter"></span><span class="mfrac"><span class="vlist-t vlist-t2"><span class="vlist-r"><span class="vlist" style="height:0.845108em;"><span style="top:-2.6550000000000002em;"><span class="pstrut" style="height:3em;"></span><span class="sizing reset-size6 size3 mtight"><span class="mord mtight"><span class="mord mtight">2</span></span></span></span><span style="top:-3.23em;"><span class="pstrut" style="height:3em;"></span><span class="frac-line" style="border-bottom-width:0.04em;"></span></span><span style="top:-3.394em;"><span class="pstrut" style="height:3em;"></span><span class="sizing reset-size6 size3 mtight"><span class="mord mtight"><span class="mord mtight">1</span></span></span></span></span><span class="vlist-s">​</span></span><span class="vlist-r"><span class="vlist" style="height:0.345em;"><span></span></span></span></span></span><span class="mclose nulldelimiter"></span></span></span></span></span>​</p>
+<p><span class="katex"><span class="katex-mathml"><math xmlns="http://www.w3.org/1998/Math/MathML"><semantics><mrow><mstyle displaystyle="true" scriptlevel="0"><mfrac><mn>1</mn><mrow><mn>2</mn><mo>∗</mo><mfrac><mn>1</mn><mn>2</mn></mfrac></mrow></mfrac></mstyle></mrow><annotation encoding="application/x-tex">\dfrac{1}{2*\frac{1}{2}}</annotation></semantics></math></span><span class="katex-html" aria-hidden="true"><span class="base"><span class="strut" style="height:2.401548em;vertical-align:-1.080108em;"></span><span class="mord"><span class="mopen nulldelimiter"></span><span class="mfrac"><span class="vlist-t vlist-t2"><span class="vlist-r"><span class="vlist" style="height:1.32144em;"><span style="top:-2.2648919999999997em;"><span class="pstrut" style="height:3em;"></span><span class="mord"><span class="mord">2</span><span class="mspace" style="margin-right:0.2222222222222222em;"></span><span class="mbin">∗</span><span class="mspace" style="margin-right:0.2222222222222222em;"></span><span class="mord"><span class="mopen nulldelimiter"></span><span class="mfrac"><span class="vlist-t vlist-t2"><span class="vlist-r"><span class="vlist" style="height:0.845108em;"><span style="top:-2.6550000000000002em;"><span class="pstrut" style="height:3em;"></span><span class="sizing reset-size6 size3 mtight"><span class="mord mtight"><span class="mord mtight">2</span></span></span></span><span style="top:-3.23em;"><span class="pstrut" style="height:3em;"></span><span class="frac-line" style="border-bottom-width:0.04em;"></span></span><span style="top:-3.394em;"><span class="pstrut" style="height:3em;"></span><span class="sizing reset-size6 size3 mtight"><span class="mord mtight"><span class="mord mtight">1</span></span></span></span></span><span class="vlist-s">​</span></span><span class="vlist-r"><span class="vlist" style="height:0.345em;"><span></span></span></span></span></span><span class="mclose nulldelimiter"></span></span></span></span><span style="top:-3.23em;"><span class="pstrut" style="height:3em;"></span><span class="frac-line" style="border-bottom-width:0.04em;"></span></span><span style="top:-3.677em;"><span class="pstrut" style="height:3em;"></span><span class="mord"><span class="mord">1</span></span></span></span><span class="vlist-s">​</span></span><span class="vlist-r"><span class="vlist" style="height:1.080108em;"><span></span></span></span></span></span><span class="mclose nulldelimiter"></span></span></span></span></span>​</p>
+<p><span class="katex"><span class="katex-mathml"><math xmlns="http://www.w3.org/1998/Math/MathML"><semantics><mrow><mfrac><mn>1</mn><mrow><mn>2</mn><mo>∗</mo><mstyle displaystyle="true" scriptlevel="0"><mfrac><mn>1</mn><mn>2</mn></mfrac></mstyle></mrow></mfrac></mrow><annotation encoding="application/x-tex">\frac{1}{2*\dfrac{1}{2}}</annotation></semantics></math></span><span class="katex-html" aria-hidden="true"><span class="base"><span class="strut" style="height:2.783548em;vertical-align:-1.9384400000000002em;"></span><span class="mord"><span class="mopen nulldelimiter"></span><span class="mfrac"><span class="vlist-t vlist-t2"><span class="vlist-r"><span class="vlist" style="height:0.845108em;"><span style="top:-2.19em;"><span class="pstrut" style="height:3.37644em;"></span><span class="sizing reset-size6 size3 mtight"><span class="mord mtight"><span class="mord mtight">2</span><span class="mbin mtight">∗</span><span class="mord sizing reset-size3 size6 mtight"><span class="mopen nulldelimiter sizing reset-size3 size6"></span><span class="mfrac"><span class="vlist-t vlist-t2"><span class="vlist-r"><span class="vlist" style="height:1.37644em;"><span style="top:-2.248em;"><span class="pstrut" style="height:3em;"></span><span class="mord mtight"><span class="mord mtight">2</span></span></span><span style="top:-3.2255000000000003em;"><span class="pstrut" style="height:3em;"></span><span class="frac-line mtight" style="border-bottom-width:0.049em;"></span></span><span style="top:-3.732em;"><span class="pstrut" style="height:3em;"></span><span class="mord mtight"><span class="mord mtight">1</span></span></span></span><span class="vlist-s">​</span></span><span class="vlist-r"><span class="vlist" style="height:0.752em;"><span></span></span></span></span></span><span class="mclose nulldelimiter sizing reset-size3 size6"></span></span></span></span></span><span style="top:-3.60644em;"><span class="pstrut" style="height:3.37644em;"></span><span class="frac-line" style="border-bottom-width:0.04em;"></span></span><span style="top:-3.7704400000000002em;"><span class="pstrut" style="height:3.37644em;"></span><span class="sizing reset-size6 size3 mtight"><span class="mord mtight"><span class="mord mtight">1</span></span></span></span></span><span class="vlist-s">​</span></span><span class="vlist-r"><span class="vlist" style="height:1.9384400000000002em;"><span></span></span></span></span></span><span class="mclose nulldelimiter"></span></span></span></span></span>​</p>
+<p><span class="katex"><span class="katex-mathml"><math xmlns="http://www.w3.org/1998/Math/MathML"><semantics><mrow><mstyle displaystyle="true" scriptlevel="0"><mfrac><mn>1</mn><mrow><mn>2</mn><mo>∗</mo><mstyle displaystyle="true" scriptlevel="0"><mfrac><mn>1</mn><mn>2</mn></mfrac></mstyle></mrow></mfrac></mstyle></mrow><annotation encoding="application/x-tex">\dfrac{1}{2*\dfrac{1}{2}}</annotation></semantics></math></span><span class="katex-html" aria-hidden="true"><span class="base"><span class="strut" style="height:3.21888em;vertical-align:-1.89744em;"></span><span class="mord"><span class="mopen nulldelimiter"></span><span class="mfrac"><span class="vlist-t vlist-t2"><span class="vlist-r"><span class="vlist" style="height:1.32144em;"><span style="top:-2.11em;"><span class="pstrut" style="height:3.32144em;"></span><span class="mord"><span class="mord">2</span><span class="mspace" style="margin-right:0.2222222222222222em;"></span><span class="mbin">∗</span><span class="mspace" style="margin-right:0.2222222222222222em;"></span><span class="mord"><span class="mopen nulldelimiter"></span><span class="mfrac"><span class="vlist-t vlist-t2"><span class="vlist-r"><span class="vlist" style="height:1.32144em;"><span style="top:-2.314em;"><span class="pstrut" style="height:3em;"></span><span class="mord"><span class="mord">2</span></span></span><span style="top:-3.23em;"><span class="pstrut" style="height:3em;"></span><span class="frac-line" style="border-bottom-width:0.04em;"></span></span><span style="top:-3.677em;"><span class="pstrut" style="height:3em;"></span><span class="mord"><span class="mord">1</span></span></span></span><span class="vlist-s">​</span></span><span class="vlist-r"><span class="vlist" style="height:0.686em;"><span></span></span></span></span></span><span class="mclose nulldelimiter"></span></span></span></span><span style="top:-3.55144em;"><span class="pstrut" style="height:3.32144em;"></span><span class="frac-line" style="border-bottom-width:0.04em;"></span></span><span style="top:-3.99844em;"><span class="pstrut" style="height:3.32144em;"></span><span class="mord"><span class="mord">1</span></span></span></span><span class="vlist-s">​</span></span><span class="vlist-r"><span class="vlist" style="height:1.89744em;"><span></span></span></span></span></span><span class="mclose nulldelimiter"></span></span></span></span></span>​</p>
+</blockquote>
+<h3 id="4-开方"><a class="markdownIt-Anchor" href="#4-开方"></a> 4、开方</h3>
+<blockquote>
+<p>代码：</p>
+<figure class="highlight plaintext"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">$\sqrt[根指数,默认值2]&#123;被开方数&#125;$</span><br></pre></td></tr></table></figure>
+<p>效果：</p>
+<p><span class="katex"><span class="katex-mathml"><math xmlns="http://www.w3.org/1998/Math/MathML"><semantics><mrow><mroot><mn>27</mn><mn>3</mn></mroot></mrow><annotation encoding="application/x-tex">\sqrt[3]{27}</annotation></semantics></math></span><span class="katex-html" aria-hidden="true"><span class="base"><span class="strut" style="height:1.04em;vertical-align:-0.13278em;"></span><span class="mord sqrt"><span class="root"><span class="vlist-t"><span class="vlist-r"><span class="vlist" style="height:0.7868839999999999em;"><span style="top:-2.964664em;"><span class="pstrut" style="height:2.5em;"></span><span class="sizing reset-size6 size1 mtight"><span class="mord mtight"><span class="mord mtight">3</span></span></span></span></span></span></span></span><span class="vlist-t vlist-t2"><span class="vlist-r"><span class="vlist" style="height:0.90722em;"><span class="svg-align" style="top:-3em;"><span class="pstrut" style="height:3em;"></span><span class="mord" style="padding-left:0.833em;"><span class="mord">2</span><span class="mord">7</span></span></span><span style="top:-2.86722em;"><span class="pstrut" style="height:3em;"></span><span class="hide-tail" style="min-width:0.853em;height:1.08em;"><svg width='400em' height='1.08em' viewBox='0 0 400000 1080' preserveAspectRatio='xMinYMin slice'><path d='M95,702
+c-2.7,0,-7.17,-2.7,-13.5,-8c-5.8,-5.3,-9.5,-10,-9.5,-14
+c0,-2,0.3,-3.3,1,-4c1.3,-2.7,23.83,-20.7,67.5,-54
+c44.2,-33.3,65.8,-50.3,66.5,-51c1.3,-1.3,3,-2,5,-2c4.7,0,8.7,3.3,12,10
+s173,378,173,378c0.7,0,35.3,-71,104,-213c68.7,-142,137.5,-285,206.5,-429
+c69,-144,104.5,-217.7,106.5,-221
+l0 -0
+c5.3,-9.3,12,-14,20,-14
+H400000v40H845.2724
+s-225.272,467,-225.272,467s-235,486,-235,486c-2.7,4.7,-9,7,-19,7
+c-6,0,-10,-1,-12,-3s-194,-422,-194,-422s-65,47,-65,47z
+M834 80h400000v40h-400000z'/></svg></span></span></span><span class="vlist-s">​</span></span><span class="vlist-r"><span class="vlist" style="height:0.13278em;"><span></span></span></span></span></span></span></span></span>​</p>
+</blockquote>
+<h3 id="5-颜色"><a class="markdownIt-Anchor" href="#5-颜色"></a> 5、颜色</h3>
+<blockquote>
+<p>代码：</p>
+<figure class="highlight text"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br></pre></td><td class="code"><pre><span class="line">$\colors&#123;颜色&#125;&#123;文字&#125;$</span><br><span class="line">新版浏览器支持RGB模式</span><br></pre></td></tr></table></figure>
+</blockquote>
+<h2 id="十四-支持的html元素"><a class="markdownIt-Anchor" href="#十四-支持的html元素"></a> 十四、支持的HTML元素</h2>
+<h3 id="1-字体-字号-颜色-背景"><a class="markdownIt-Anchor" href="#1-字体-字号-颜色-背景"></a> 1、字体、字号、颜色、背景</h3>
+<blockquote>
+<p>代码：</p>
+<figure class="highlight html"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br><span class="line">10</span><br><span class="line">11</span><br></pre></td><td class="code"><pre><span class="line"><span class="tag">&lt;<span class="name">font</span> <span class="attr">face</span>=<span class="string">&quot;黑体&quot;</span>&gt;</span>实现字体为黑体<span class="tag">&lt;/<span class="name">font</span>&gt;</span></span><br><span class="line"><span class="tag">&lt;<span class="name">small</span>&gt;</span>比默认字体小一号<span class="tag">&lt;/<span class="name">small</span>&gt;</span></span><br><span class="line">这里显示的是浏览器默认字体大小</span><br><span class="line"><span class="tag">&lt;<span class="name">font</span> <span class="attr">size</span>=<span class="string">4</span>&gt;</span>实现字体大小改变<span class="tag">&lt;/<span class="name">font</span>&gt;</span></span><br><span class="line"><span class="tag">&lt;<span class="name">big</span>&gt;</span>比默认字体大一号<span class="tag">&lt;/<span class="name">big</span>&gt;</span></span><br><span class="line"><span class="tag">&lt;<span class="name">font</span> <span class="attr">color</span>=<span class="string">red</span>&gt;</span>实现字体颜色为红色<span class="tag">&lt;/<span class="name">font</span>&gt;</span></span><br><span class="line"><span class="tag">&lt;<span class="name">span</span> <span class="attr">style</span>=<span class="string">&quot;background-color: orange&quot;</span>&gt;</span>实现背景填充为橙色<span class="tag">&lt;/<span class="name">span</span>&gt;</span></span><br><span class="line"><span class="tag">&lt;<span class="name">font</span> <span class="attr">color</span>=<span class="string">#FF69B4</span>&gt;</span>字体颜色值也可以用十六进制表示<span class="tag">&lt;/<span class="name">font</span>&gt;</span></span><br><span class="line"><span class="tag">&lt;<span class="name">span</span> <span class="attr">style</span>=<span class="string">&quot;background-color: #D3D3D3&quot;</span>&gt;</span>背景颜色值也可以用十六进制表示<span class="tag">&lt;/<span class="name">span</span>&gt;</span></span><br><span class="line"><span class="tag">&lt;<span class="name">font</span> <span class="attr">face</span>=<span class="string">&quot;黑体&quot;</span> <span class="attr">size</span>=<span class="string">4</span> <span class="attr">color</span>=<span class="string">red</span>&gt;</span>实现字体效果：黑体、4号、红色<span class="tag">&lt;/<span class="name">font</span>&gt;</span></span><br><span class="line"><span class="tag">&lt;<span class="name">span</span> <span class="attr">style</span>=<span class="string">&quot;background-color: #D3D3D3&quot;</span>&gt;</span><span class="tag">&lt;<span class="name">font</span> <span class="attr">size</span>=<span class="string">4</span> <span class="attr">color</span>=<span class="string">#DC143C</span>&gt;</span>默认字体，4号，使用十六进制表示颜色值<span class="tag">&lt;/<span class="name">font</span>&gt;</span><span class="tag">&lt;/<span class="name">span</span>&gt;</span></span><br></pre></td></tr></table></figure>
+</blockquote>
+<blockquote>
+<p>效果：</p>
+<p><font face="黑体">实现字体为黑体</font></p>
+<p><small>比默认字体小一号</small></p>
+<p>这里显示的是浏览器默认字体大小</p>
+<p><font size=4>实现字体大小改变</font></p>
+<p><big>比默认字体大一号</big></p>
+<p><font color=red>实现字体颜色为红色</font></p>
+<p><span style="background-color: orange">实现背景填充为橙色</span></p>
+<p><font color=#FF69B4>字体颜色值也可以用十六进制表示</font></p>
+<p><span style="background-color: #D3D3D3">背景颜色值也可以用十六进制表示</span></p>
+<p><font face="黑体" size=4 color=red>实现字体效果：黑体、4号、红色</font></p>
+<p><span style="background-color: #D3D3D3"><font size=4 color=#DC143C>默认字体，4号，使用十六进制表示颜色值</font></span></p>
+</blockquote>
+<blockquote>
+<p>常用HTML标签语法：</p>
+<figure class="highlight html"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br></pre></td><td class="code"><pre><span class="line">&gt;<span class="tag">&lt;<span class="name">font</span> <span class="attr">color</span>=<span class="string">red</span>&gt;</span>红色字体<span class="tag">&lt;/<span class="name">font</span>&gt;</span></span><br><span class="line">&gt;<span class="tag">&lt;<span class="name">font</span> <span class="attr">color</span>=<span class="string">blue</span>&gt;</span>蓝色字体<span class="tag">&lt;/<span class="name">font</span>&gt;</span></span><br><span class="line">&gt;<span class="tag">&lt;<span class="name">center</span>&gt;</span>文字居中<span class="tag">&lt;/<span class="name">center</span>&gt;</span></span><br></pre></td></tr></table></figure>
+</blockquote>
+<h3 id="2-实现上划线"><a class="markdownIt-Anchor" href="#2-实现上划线"></a> 2、实现上划线</h3>
+<blockquote>
+<p>代码：</p>
+<figure class="highlight html"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line"><span class="tag">&lt;<span class="name">span</span> <span class="attr">style</span>=<span class="string">&quot;text-decoration: overline;&quot;</span>&gt;</span>RESET<span class="tag">&lt;/<span class="name">span</span>&gt;</span>是复位信号，输入低电平有效。</span><br></pre></td></tr></table></figure>
+</blockquote>
+<blockquote>
+<p>效果：</p>
+<p><span style="text-decoration: overline;">RESET</span>是复位信号，输入低电平有效。</p>
+</blockquote>
+<h3 id="3-图片处理技巧"><a class="markdownIt-Anchor" href="#3-图片处理技巧"></a> 3、图片处理技巧</h3>
+<blockquote>
+<p>说明：Markdown 格式生成的图片默认居左对齐，大小受图片实际大小限制</p>
+</blockquote>
+<figure class="highlight html"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br><span class="line">10</span><br></pre></td><td class="code"><pre><span class="line">可以用HTML中<span class="tag">&lt;<span class="name">img</span>&gt;</span>标签的&quot;width&quot;及&quot;height&quot;属性来固定图片的大小</span><br><span class="line"><span class="tag">&lt;<span class="name">img</span> <span class="attr">width</span>=<span class="string">256</span> <span class="attr">height</span>=<span class="string">256</span> <span class="attr">src</span>=<span class="string">&quot;https://bitnotes.oss-cn-shanghai.aliyuncs.com/assets/20200715225103.png&quot;</span> /&gt;</span></span><br><span class="line"></span><br><span class="line">可以用 <span class="tag">&lt;<span class="name">div</span>&gt;</span> 标签结合 &quot;align&quot; 属性来控制图片居中对齐<span class="tag">&lt;<span class="name">div</span> <span class="attr">align</span>=<span class="string">&quot;center&quot;</span>&gt;</span><span class="tag">&lt;<span class="name">img</span> <span class="attr">src</span>=<span class="string">&quot;https://bitnotes.oss-cn-shanghai.aliyuncs.com/assets/20200715225103.png&quot;</span> /&gt;</span><span class="tag">&lt;/<span class="name">div</span>&gt;</span></span><br><span class="line">    </span><br><span class="line">若要在图片下方加标注，可以用如下方式实现：</span><br><span class="line"><span class="tag">&lt;<span class="name">center</span>&gt;</span></span><br><span class="line"><span class="tag">&lt;<span class="name">img</span> <span class="attr">width</span>=<span class="string">256</span> <span class="attr">height</span>=<span class="string">256</span> <span class="attr">src</span>=<span class="string">&quot;https://bitnotes.oss-cn-shanghai.aliyuncs.com/assets/20200715225103.png&quot;</span> /&gt;</span></span><br><span class="line">图 1 数字图像处理的标准图</span><br><span class="line"><span class="tag">&lt;/<span class="name">center</span>&gt;</span></span><br></pre></td></tr></table></figure>
+<hr class="footnotes-sep" />
+<section class="footnotes">
+<ol class="footnotes-list">
+<li id="fn1" class="footnote-item"><p>Markdown 是一种轻量级标记语言 <a href="#fnref1" class="footnote-backref">↩︎</a></p>
+</li>
+</ol>
+</section>
+
+    </div>
+
+    
+    
+    
+
+    <footer class="post-footer">
+          
+
+<div class="post-copyright">
+<ul>
+  <li class="post-copyright-author">
+      <strong>本文作者： </strong>Chandie Zhang
+  </li>
+  <li class="post-copyright-link">
+      <strong>本文链接：</strong>
+      <a href="https://chandie-zhang.netlify.app/2024/10/04/MarkDown%E8%AF%AD%E6%B3%95/" title="MarkDown语法">https://chandie-zhang.netlify.app/2024/10/04/MarkDown语法/</a>
+  </li>
+  <li class="post-copyright-license">
+      <strong>版权声明： </strong>本博客所有文章除特别声明外，均采用 <a href="https://creativecommons.org/licenses/by-nc-sa/4.0/deed.z" rel="noopener" target="_blank"><i class="fab fa-fw fa-creative-commons"></i>BY-NC-SA</a> 许可协议。转载请注明出处！
+  </li>
+</ul>
+</div>
+
+          <div class="post-tags">
+              <a href="/tags/MarkDown%E8%AF%AD%E6%B3%95/" rel="tag"># MarkDown语法</a>
+              <a href="/tags/%E5%9F%BA%E7%A1%80%E6%8A%80%E8%83%BD/" rel="tag"># 基础技能</a>
+          </div>
+
+        
+
+          <div class="post-nav">
+            <div class="post-nav-item">
+            </div>
+            <div class="post-nav-item">
+                <a href="/2024/10/07/%E5%9F%BA%E5%9B%A0%E6%8C%87%E5%AF%BC%E8%9B%8B%E7%99%BD%E8%B4%A8%E7%9A%84%E5%90%88%E6%88%90/" rel="next" title="基因指导蛋白质的合成">
+                  基因指导蛋白质的合成 <i class="fa fa-angle-right"></i>
+                </a>
+            </div>
+          </div>
+    </footer>
+  </article>
+</div>
+
+
+
+
+
+
+</div>
+  </main>
+
+  <footer class="footer">
+    <div class="footer-inner">
+
+  <div class="copyright">
+    &copy; 
+    <span itemprop="copyrightYear">2024</span>
+    <span class="with-love">
+      <i class="fa fa-heart"></i>
+    </span>
+    <span class="author" itemprop="copyrightHolder">Chandie Zhang</span>
+  </div>
+<div class="busuanzi-count">
+    <span class="post-meta-item" id="busuanzi_container_site_uv">
+      <span class="post-meta-item-icon">
+        <i class="fa fa-user"></i>
+      </span>
+      <span class="site-uv" title="总访客量">
+        <span id="busuanzi_value_site_uv"></span>
+      </span>
+    </span>
+    <span class="post-meta-item" id="busuanzi_container_site_pv">
+      <span class="post-meta-item-icon">
+        <i class="fa fa-eye"></i>
+      </span>
+      <span class="site-pv" title="总访问量">
+        <span id="busuanzi_value_site_pv"></span>
+      </span>
+    </span>
+</div>
+
+    </div>
+  </footer>
+
+  
+  <div class="toggle sidebar-toggle" role="button">
+    <span class="toggle-line"></span>
+    <span class="toggle-line"></span>
+    <span class="toggle-line"></span>
+  </div>
+  <div class="sidebar-dimmer"></div>
+  <div class="back-to-top" role="button" aria-label="返回顶部">
+    <i class="fa fa-arrow-up fa-lg"></i>
+    <span>0%</span>
+  </div>
+
+<noscript>
+  <div class="noscript-warning">Theme NexT works best with JavaScript enabled</div>
+</noscript>
+
+
+  
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/animejs/3.2.1/anime.min.js" integrity="sha256-XL2inqUJaslATFnHdJOi9GfQ60on8Wx1C2H8DYiN1xY=" crossorigin="anonymous"></script>
+<script src="/js/comments.js"></script><script src="/js/utils.js"></script><script src="/js/motion.js"></script><script src="/js/sidebar.js"></script><script src="/js/next-boot.js"></script>
+
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/hexo-generator-searchdb/1.4.1/search.js" integrity="sha256-1kfA5uHPf65M5cphT2dvymhkuyHPQp5A53EGZOnOLmc=" crossorigin="anonymous"></script>
+<script src="/js/third-party/search/local-search.js"></script>
+
+  <script class="next-config" data-name="pdf" type="application/json">{"object_url":{"url":"https://cdnjs.cloudflare.com/ajax/libs/pdfobject/2.3.0/pdfobject.min.js","integrity":"sha256-JJZNsid68vnh3/zyj0lY9BN5ynxVX/12XgOa1TlaYN0="},"url":"/lib/pdf/web/viewer.html"}</script>
+  <script src="/js/third-party/tags/pdf.js"></script>
+
+  <script class="next-config" data-name="mermaid" type="application/json">{"enable":true,"theme":{"light":"default","dark":"dark"},"js":{"url":"https://cdnjs.cloudflare.com/ajax/libs/mermaid/10.9.1/mermaid.min.js","integrity":"sha256-YbM1pG3wWnzhyYN49g5fPnen+2CKEFaZfopkkwSpNtY="}}</script>
+  <script src="/js/third-party/tags/mermaid.js"></script>
+
+
+
+  <script src="/js/third-party/pace.js"></script>
+
+
+  
+  <script async src="https://busuanzi.ibruce.info/busuanzi/2.3/busuanzi.pure.mini.js"></script>
+
+
+
+
+  
+
+  <script class="next-config" data-name="enableMath" type="application/json">false</script><link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/KaTeX/0.16.9/katex.min.css" integrity="sha256-UF1fgpAiu3tPJN/uCqEUHNe7pnr+QR0SQDNfgglgtcM=" crossorigin="anonymous">
+  <script class="next-config" data-name="katex" type="application/json">{"copy_tex_js":{"url":"https://cdnjs.cloudflare.com/ajax/libs/KaTeX/0.16.9/contrib/copy-tex.min.js","integrity":"sha256-Us54+rSGDSTvIhKKUs4kygE2ipA0RXpWWh0/zLqw3bs="}}</script>
+  <script src="/js/third-party/math/katex.js"></script>
+
+
+
+</body>
+</html>
